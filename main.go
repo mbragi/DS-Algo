@@ -28,8 +28,8 @@ func main() {
 	fmt.Println("majorityCount", result)
 	
 	arr2 := []int{1, 2, 1, 3, 6, 4, 5}
-	println("peakNumber", findPeakNumber(arr2))
-	println("peakNumberConcurrent", findPeakNumberConcurrent(arr2))
+	fmt.Println("peakNumber", findPeakNumber(arr2))
+	fmt.Println("peakNumberConcurrent", findPeakNumberConcurrent(arr2))
 	
 	linkedList	:= LinkedList{}
 	linkedList.addNode(1)

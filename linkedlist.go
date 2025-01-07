@@ -1,4 +1,8 @@
 package main
+
+import	(
+	"fmt"
+)
  
 type Node struct {
 		data any
@@ -26,7 +30,7 @@ func (l *LinkedList) addNode(data any) {
 func printList(l *LinkedList) {
 	current := l.head
 	for current != nil {
-		println(current.data)
+		fmt.Println(current.data)
 		current = current.next
 	}
 }

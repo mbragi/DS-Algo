@@ -16,7 +16,6 @@ func findPeakNumber(arr []int) []int {
 			result = append(result, num)
 		}
 	}
-	println("Peak numbers are", result[0], result[1])
 	return result
 }
 
