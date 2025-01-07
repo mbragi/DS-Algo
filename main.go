@@ -25,5 +25,8 @@ func findMajorityNumberAndFrequencyCount(arr []int) map[string]interface{} {
 func main() {
 	arr := []int{1, 2, 3, 4, 5, 5, 5, 5, 5, 5, 5}
 	result := findMajorityNumberAndFrequencyCount(arr)
-	fmt.Println(result)
+	fmt.Println("majorityCount", result)
+
+	// arr2 := []int{1, 2, 1, 3, 6, 4, 5}
+	// println("peakNumber", findPeakNumber(arr2))
 }
