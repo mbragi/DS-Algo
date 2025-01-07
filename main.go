@@ -27,11 +27,13 @@ func main() {
 	result := findMajorityNumberAndFrequencyCount(arr)
 	fmt.Println("majorityCount", result)
 	
+	arr2 := []int{1, 2, 1, 3, 6, 4, 5}
+	println("peakNumber", findPeakNumber(arr2))
+	println("peakNumberConcurrent", findPeakNumberConcurrent(arr2))
+	
 	linkedList	:= LinkedList{}
 	linkedList.addNode(1)
 	linkedList.addNode(2)
 	printList(&linkedList)
 
-	// arr2 := []int{1, 2, 1, 3, 6, 4, 5}
-	// println("peakNumber", findPeakNumber(arr2))
 }
